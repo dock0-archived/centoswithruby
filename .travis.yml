@@ -1,0 +1,11 @@
+sudo: required
+dist: trusty
+services:
+- docker
+install:
+- docker build -t test .
+script:
+- docker run -ti test /bin/true
+- docker run -ti test pkgforge --help
+notifications:
+  email: false
