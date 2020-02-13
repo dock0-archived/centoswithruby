@@ -1,3 +1,5 @@
+**Deprecation Notice:** This repo is no longer updated; my need for a CentOS Docker container has been rendered obsolete.
+
 dock0/centoswithruby
 =======
 
